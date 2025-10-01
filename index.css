@@ -1,0 +1,55 @@
+body {
+    margin: 0 20px 0 20px;
+    background-color: #1F2937;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+
+.title {    
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    margin: 20px 0px 0px 0px;
+}
+
+#pswrd {
+    color:#10B981;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 35px;
+}
+
+#generate {
+    display: block;
+    background-color: #10B981;
+    color:white;
+    padding: 8px 6px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 100;
+}
+
+.pswdcontainer {
+    display: flexbox;
+}
+
+.pswd {
+    margin: 20px 20px 10px 0px;
+    padding: 5px;
+    color:  #10B981;
+    font-weight: 500;
+    background-color: #273549;
+    width: 165px;
+    height: 25px;
+    line-height: 0px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#error-msg {
+    color: red;
+}
