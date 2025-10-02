@@ -7,10 +7,14 @@
         <h1 class="title">Generate a <span id="pswrd">random password</span></h1>
         <p>Never use an insecure password again.</p>
         <input type="number" min=1 max=20 id="user-input"> Select password length (max: 16)</input>
+        <div>
+        <input id ="symbols-tick" type="checkbox" checked= true>Symbols?</type>
+        <input id = "numbers-tick" type="checkbox" checked = true>Numbers?</type>
+        </div>
         <button id = "generate" onclick=generate()>Generate passwords</button>
             <div class="pswdcontainer">
-                <button class="pswd" id="password1-el"></button>
-                <button class="pswd" id="password2-el"></button>
+                <button class="pswd" id="password1-el" onclick=copy1()></button>
+                <button class="pswd" id="password2-el" onclick=copy2()></button>
             </div>
         <p id="error-msg"></p>        
         <script src="index.js"></script>
